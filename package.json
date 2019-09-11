@@ -1,0 +1,23 @@
+{
+  "name": "contactlist",
+  "version": "1.0.0",
+  "description": "contact list app",
+  "main": "app.js",
+  
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "author": "Mr BL",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fsevents": "^2.0.7",
+    "mongoose": "^5.7.0",
+    "nodemon": "^1.19.2",
+    "path": "^0.12.7"
+  }
+}
